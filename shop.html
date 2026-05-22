@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shop premium tablecloths and napkins by color, material, and occasion.">
+    <title>Shop | The Little Things</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">TLT</span><span>The Little Things</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html" aria-current="page">Shop</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog & Deals</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1800&q=82" alt="Dining table with natural linen, ceramic plates, and fresh flowers">
+        <div>
+          <p class="eyebrow">Tablecloths and napkins</p>
+          <h1>Pieces for everyday beauty and special occasions.</h1>
+        </div>
+      </section>
+
+      <section class="shop-layout section">
+        <aside class="filters" aria-label="Product filters">
+          <div class="filter-group">
+            <label for="colorFilter">Color</label>
+            <select id="colorFilter" data-filter="color">
+              <option value="all">All colors</option>
+              <option value="neutral">Neutral</option>
+              <option value="sage">Sage</option>
+              <option value="terracotta">Terracotta</option>
+              <option value="white">White</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="materialFilter">Material</label>
+            <select id="materialFilter" data-filter="material">
+              <option value="all">All materials</option>
+              <option value="linen">Linen</option>
+              <option value="cotton">Cotton</option>
+              <option value="jacquard">Jacquard</option>
+              <option value="lace">Lace</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="occasionFilter">Occasion</label>
+            <select id="occasionFilter" data-filter="occasion">
+              <option value="all">All occasions</option>
+              <option value="everyday">Everyday</option>
+              <option value="dinner-party">Dinner party</option>
+              <option value="festive">Festive</option>
+              <option value="wedding">Wedding</option>
+            </select>
+          </div>
+        </aside>
+
+        <div>
+          <div class="shop-heading">
+            <h2>Curated Linen Finds</h2>
+            <p id="productCount">8 products</p>
+          </div>
+          <div class="product-grid" id="productGrid">
+            <article class="product-card" data-color="neutral" data-material="linen" data-occasion="everyday dinner-party">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="Stone washed linen tablecloth on a dining table">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Neutral linen</p>
+                <h3>Stone Washed Linen Tablecloth</h3>
+                <p>Soft, breathable, and beautifully relaxed for casual hosting.</p>
+                <div class="product-bottom"><span>$24.99</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="sage" data-material="cotton" data-occasion="everyday">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?auto=format&fit=crop&w=900&q=80" alt="Sage napkins with plates and cutlery">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Sage cotton</p>
+                <h3>Everyday Cotton Napkin Set</h3>
+                <p>Easy to fold, easy to wash, and calm enough for any table.</p>
+                <div class="product-bottom"><span>$12.40</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="white" data-material="jacquard" data-occasion="festive wedding">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1519671282429-b44660ead0a7?auto=format&fit=crop&w=900&q=80" alt="White jacquard tablecloth on a candlelit table">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">White jacquard</p>
+                <h3>Classic Damask Tablecloth</h3>
+                <p>A graceful sheen for weddings, Eid dinners, and holiday meals.</p>
+                <div class="product-bottom"><span>$31.80</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="terracotta" data-material="linen" data-occasion="dinner-party festive">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Warm terracotta table linens for a dinner party">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Terracotta linen</p>
+                <h3>Autumn Linen Napkins</h3>
+                <p>Warm color for candlelit meals, layered plates, and brass accents.</p>
+                <div class="product-bottom"><span>$15.20</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="white" data-material="lace" data-occasion="wedding festive">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&w=900&q=80" alt="White lace runner on a formal dining table">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">White lace</p>
+                <h3>Delicate Lace Table Runner</h3>
+                <p>Light, romantic texture for buffets, sweets tables, and dinners.</p>
+                <div class="product-bottom"><span>$10.90</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="neutral" data-material="cotton" data-occasion="everyday dinner-party">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1533777324565-a040eb52fac1?auto=format&fit=crop&w=900&q=80" alt="Neutral cotton table runner with flowers and plates">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Natural cotton</p>
+                <h3>Striped Cotton Runner</h3>
+                <p>A simple anchor for breakfast tables, consoles, and sideboards.</p>
+                <div class="product-bottom"><span>$13.60</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="sage" data-material="linen" data-occasion="dinner-party">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&w=900&q=80" alt="Sage linen tablecloth with layered plates">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Sage linen</p>
+                <h3>Garden Party Tablecloth</h3>
+                <p>Fresh color with an earthy feel for spring lunches and dinners.</p>
+                <div class="product-bottom"><span>$28.50</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+            <article class="product-card" data-color="terracotta" data-material="jacquard" data-occasion="festive">
+              <a class="product-image" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">
+                <img src="https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=900&q=80" alt="Festive jacquard tablecloth with candlelight">
+              </a>
+              <div class="product-copy">
+                <p class="product-meta">Terracotta jacquard</p>
+                <h3>Festive Patterned Cloth</h3>
+                <p>Subtle woven pattern for occasions that call for a little glow.</p>
+                <div class="product-bottom"><span>$34.00</span><a class="button small" href="https://www.aliexpress.com/" target="_blank" rel="sponsored noreferrer">Buy Now</a></div>
+              </div>
+            </article>
+          </div>
+          <p class="empty-state" id="emptyState" hidden>No products match those filters.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">TLT</span><span>The Little Things</span></a><p>Premium table linens, helpful styling ideas, and handpicked affiliate deals.</p></div>
+      <div class="footer-links"><a href="shop.html">Shop</a><a href="blog.html">Deals</a><a href="contact.html">Contact</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
